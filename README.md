@@ -13,7 +13,7 @@
 
 #### 本项目需要配合
 
-小程序： https://github.com/zxb1655/xzzshop-miniprogram
+小程序： https://github.com/zxb1655/xzzshop-miniprogram  
 后台管理：https://github.com/zxb1655/xzzshop-admin
 
 ### 本地开发环境配置
