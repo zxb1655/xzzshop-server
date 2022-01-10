@@ -3,9 +3,9 @@ module.exports = {
   default_module: "api",
   weixin: {
     appid: "wxd03ab9b33b531291", // 小程序 appid
-    secret: "e7cb89661abaf1b1302b9e98b97c2bf8", // 小程序密钥
-    mch_id: "1547581301", // 商户帐号ID
-    partner_key: "zxbzxb16552448801655244880zxbzxb", // 微信支付密钥
+    secret: "", // 小程序密钥
+    mch_id: "", // 商户帐号ID
+    partner_key: "", // 微信支付密钥
     notify_url: "https://shopserver.jzzz66.cn/api/pay/notify", // 微信支付异步通知
   },
   express: {
@@ -25,15 +25,15 @@ module.exports = {
     ip_server_url: "http://www.kdniao.com/External/GetIp.aspx",
   },
   qiniu: {
-    access_key: "HHxytP7w7RCmrfjvB-_sSZ5J6kW5DvyJRHoFduSR", // 在七牛密钥管理中获取
-    secret_key: "Q18jq1O3BXNy952cIM5Ke0RzLIJgM9LT89P-R7lX", // 在七牛密钥管理中获取
+    access_key: "", // 在七牛密钥管理中获取
+    secret_key: "", // 在七牛密钥管理中获取
     bucket: "zxb1655", // 请填自己的bucket的名称
     domain: "http://cdn.jzzz66.cn/", // 请填自己的domain域名
   },
   // 在七牛新建一个https的空间，这个是用来存储分享图片的https图片，对应的是goods表中的https_pic_url
   qiniuHttps: {
-    access_key: "HHxytP7w7RCmrfjvB-_sSZ5J6kW5DvyJRHoFduSR", // 在七牛密钥管理中获取
-    secret_key: "Q18jq1O3BXNy952cIM5Ke0RzLIJgM9LT89P-R7lX", // 在七牛密钥管理中获取
+    access_key: "", // 在七牛密钥管理中获取
+    secret_key: "", // 在七牛密钥管理中获取
     bucket: "zxb1655", // 自己设置的
     domain: "http://cdn.jzzz66.cn/", // 自己设置，例如：'http://img.你的域名.com/',别忘了这个”/“
     // https://developer.qiniu.com/kodo/manual/1671/region-endpoint
